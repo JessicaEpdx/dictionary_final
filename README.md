@@ -25,7 +25,9 @@ Make sure to bundle gems before using Dictionary:
 __________
 
 
+Find it through Heroku:
 
+https://fathomless-savannah-2002.herokuapp.com/
 
 
 ####Debug
