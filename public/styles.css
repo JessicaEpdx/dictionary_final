@@ -1,0 +1,101 @@
+body{
+  color:#3B3B3B;
+
+}
+
+.word_label{
+  color:#E60000;
+  font-size:20px;
+
+}
+
+.main_header{
+  font-size:50px;
+  margin:0;
+  padding-top:30px;
+  padding-bottom:0;
+  padding-left:30px;
+  font-weight:bold;
+  color:#005C5C;
+
+}
+
+.header_div{
+  float:left;
+
+}
+
+.picture{
+  height:170px;
+  margin:10px;
+  margin-top:40px;
+  padding:0;
+}
+
+.word_list_header{
+  margin-bottom:6px;
+  margin-top:0;
+}
+
+.link{
+  color:red;
+  font-family:helvetica;
+}
+
+.link:hover{
+  text-decoration:none;
+}
+
+.link_div{
+  height:30px;
+  width:120px;
+  padding:1px;
+  padding-left:5px;
+  margin:10px;
+  background-color:white;
+  border:3px solid red;
+  border-radius:4px;
+}
+
+.link_div2{
+  height:30px;
+  width:100px;
+  padding:1px;
+  padding-left:5px;
+  margin:10px;
+  background-color:white;
+  border:3px solid red;
+  border-radius:4px;
+}
+
+.word_list :hover{
+  text-decoration:none;
+
+}
+
+.word_list li{
+  font-size:20px;
+  color:DimGray;
+
+}
+
+.word_list li a{
+  color:DimGray;
+}
+
+.word_list li a:hover{
+  color:#E60000;
+
+}
+
+.definition_div{
+  margin:auto;
+  padding:10px;
+
+}
+
+.success{
+  margin:auto;
+  padding:20px;
+
+}

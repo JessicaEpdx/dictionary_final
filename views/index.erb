@@ -1,0 +1,19 @@
+<img class="picture" src="/images/dictionary.jpg" />
+
+<div class="header_div">
+<h1 class="main_header">Dictionary</h1>
+
+<form action="/success" method="post">
+  <label class= "word_label" for="word">Add a word:</label>
+    <input id="word" name="word" type="text">
+
+  <button type="submit">Add!</button>
+</form>
+<br><br>
+<h2 class="word_list_header">Words in your dictionary:</h2>
+<ol class="word_list">
+  <% @all_words.each() do |word| %>
+  <li class="words"><a href="/word/<%=word.id()%>"><%=word.get_word()%></a></li>
+  <% end %>
+</ol>
+</div>
